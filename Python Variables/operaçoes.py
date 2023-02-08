@@ -9,8 +9,7 @@ di=n1//n2
 dr=n1%n2
 e=n1**n2
 #print('A soma entre',n1,'e',n2,'vale ' '{}'.format(s)) 
-print('A soma entre {} e {} vale {}'.format(n1,n2,s))
-print('A subtração  entre {} e {} vale {}'.format(n1,n2,sub))
+print('A soma entre {} e {} vale {}'.format(n1,n2,s),end=', ') #obs: end
 print('A multiplicação entre {} e {} vale {}'.format(n1,n2,mult))
 print('A divisão entre {} e {} vale {}'.format(n1,n2,d))  
 print('A divisão inteira entre {} e {} vale {}'.format(n1,n2,di))
